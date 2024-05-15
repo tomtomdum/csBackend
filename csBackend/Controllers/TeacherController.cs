@@ -29,7 +29,7 @@ namespace csBackend.Controllers
             {
                 return NotFound();
             }
-            return Ok(teacher);
+            return Ok(teacher); 
         }
 
         [HttpGet("lastname/{lastName}")]
